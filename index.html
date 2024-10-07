@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=11in, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        @media print {
+            footer{
+                display: none;
+            }
+            html,
+            body {
+                width: 11in;
+                height: 8.5in;
+            }
+        }
+
+        body {
+            box-sizing: border-box;
+            background-image: url('certificate.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-clip: border-box;
+            /* background-size: cover; */
+            width: 1056px;
+            height: 816px;
+            position: relative;
+        }
+
+        p {
+
+            font-family: "Allura", cursive;
+            font-weight: 400;
+            font-style: normal;
+
+            font-size: 38px;
+            position: absolute;
+        }
+
+        #course-name {
+            top: 248px;
+            left: 439px;
+            min-width: 420px;
+        }
+
+        #student-name {
+            top: 368px;
+            left: 324px;
+            text-align: center;
+            min-width: 483px;
+        }
+
+        #parent-name-one {
+            top: 420px;
+            left: 310px;
+            min-width: 650px;
+        }
+
+        #parent-name-two {
+            top: 460px;
+            left: 197px;
+            min-width: 754px;
+        }
+
+        #date {
+            top: 578px;
+            left: 333px;
+            min-width: 298px;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="course-name" contenteditable="true"></p>
+    <p id="student-name" contenteditable="true"></p>
+    <p id="parent-name-one" contenteditable="true"></p>
+    <p id="parent-name-two" contenteditable="true"></p>
+    <p id="date" contenteditable="true"></p>
+
+    <footer style="position: absolute;bottom: 0px;left:20px">Made By <a href="mailto:thisiskazi@gmail.com" style="color: red;">Kazi Rayhan Reza Tirtho</a> </footer>
+</body>
+
+</html>
